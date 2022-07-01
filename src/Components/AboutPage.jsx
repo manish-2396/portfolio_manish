@@ -18,7 +18,7 @@ const AboutPage = () => {
           people.
         </p>
         <br />
-        <h1>Tool I usee</h1>
+        <h1>Tool I use</h1>
         <div className="tool">
             <div><TbBrandJavascript/></div>
             <div><TiHtml5/> </div>
