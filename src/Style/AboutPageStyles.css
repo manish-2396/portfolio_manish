@@ -1,0 +1,39 @@
+.about-page{
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+.about-page div{
+    max-width: 500px;
+}
+
+about-text {
+    grid-column: 2/14;
+    font-size: 2.7rem;
+    line-height: 130.4%;
+    color: #c4c4c4;
+    color: var(--color-gray);
+    display: block;
+    padding: 0 6rem;
+}
+
+.tool{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.tool div{
+    font-size: 60px;
+    color: #c4c4c4;
+}
+
+@media screen and (max-width : 640px) {
+    .about-page div{
+        max-width: 300px;
+    }
+}
+
