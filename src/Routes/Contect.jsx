@@ -1,13 +1,16 @@
 import React from 'react'
+import ContectPage from '../Components/ContectPage'
 import Footer from '../Components/Footer'
 import HeroImg from '../Components/HeroImg'
 import Navbar from '../Components/Navbar'
+
 
 const Contect = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg heading="Contect" text="this is Contect page" />
+      <HeroImg />
+      <ContectPage/>
       <Footer/>
     </div>
   )

@@ -18,7 +18,7 @@ const Footer = () => {
             <FaHome
               size={20}
               style={{
-                color: "#fff",
+                color: "black",
                 marginRight: "2rem",
               }}
             />
@@ -33,7 +33,7 @@ const Footer = () => {
               <FaPhone
                 size={20}
                 style={{
-                  color: "#fff",
+                  color: "black",
                   marginRight: "2rem",
                 }}
               />
@@ -45,7 +45,7 @@ const Footer = () => {
               <FaMailBulk
                 size={20}
                 style={{
-                  color: "#fff",
+                  color: "black",
                   marginRight: "2rem",
                 }}
               />
@@ -63,7 +63,7 @@ const Footer = () => {
                 <FaGithub
                   size={20}
                   style={{
-                    color: "#fff",
+                    color: "black",
                     marginRight: "2rem",
                   }}
                 />
@@ -72,7 +72,7 @@ const Footer = () => {
                 <FaLinkedinIn
                   size={20}
                   style={{
-                    color: "#fff",
+                    color: "black",
                     marginRight: "2rem",
                   }}
                 />

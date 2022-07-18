@@ -7,17 +7,22 @@
     justify-content: center;
 }
 .about-page div{
-    max-width: 500px;
+    max-width: 650px;
 }
 
-about-text {
+
+
+.about-page div h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-text {
     grid-column: 2/14;
-    font-size: 2.7rem;
+    font-size: 2rem;
     line-height: 130.4%;
-    color: #c4c4c4;
-    color: var(--color-gray);
+    color: white;
     display: block;
-    padding: 0 6rem;
 }
 
 .tool{
@@ -25,15 +30,31 @@ about-text {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 30px;
+    gap: 10px;
 }
-.tool div{
-    font-size: 60px;
-    color: #c4c4c4;
+
+
+.tool div a img {
+    width: 100px;
+    height: 100px;
 }
 
 @media screen and (max-width : 640px) {
     .about-page div{
-        max-width: 300px;
+        max-width: 350px;
+    }
+
+    .tool div a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-text {
+        grid-column: 2/14;
+        font-size: 1rem;
+        line-height: 130.4%;
+        color: white;
+        display: block;
     }
 }
 

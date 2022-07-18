@@ -8,11 +8,11 @@
 }
 
 body {
-  background-color: blueviolet;
+  background-image: linear-gradient(to right, red , yellow);
 }
 
 h1 , h4 , p ,a {
-  color: #fff;
+  color: whitesmoke;
   text-decoration: none;
 } 
 

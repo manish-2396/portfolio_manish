@@ -18,7 +18,7 @@ const HearoImg = () => {
       <div className="content">
         <img className="profile-img" src={profile} alt="" />
         <p>Hi I'M Manish Singh Chouhan</p>
-        <h1>MERN Stack Web Developer</h1>
+        <h1>MERN Full Stack Web Developer</h1>
         <div>
           <Link to="/project" className="btn">
             Project

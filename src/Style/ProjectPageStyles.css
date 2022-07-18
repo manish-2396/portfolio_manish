@@ -1,0 +1,9 @@
+.project-page {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    display: flex;
+    color: red;
+    justify-content: center;
+  }
+  
