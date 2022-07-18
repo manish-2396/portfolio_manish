@@ -13,7 +13,7 @@ const AboutPage = () => {
         <p class="about-text">
           Hello stranger! 👋, my name is{" "}
           <span class="gradient-text">Manish Singh Chouhan</span> and I am a{" "}
-          <span class="gradient-text">Full Stack Developer</span>, passionate
+          <span class="gradient-text">MERN Stack Developer</span>, passionate
           about building digital products that improve everyday experience for
           people.
         </p>
