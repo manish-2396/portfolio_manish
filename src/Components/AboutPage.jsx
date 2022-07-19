@@ -15,6 +15,7 @@ const AboutPage = () => {
     <Center position="absolute" top="200px" width="100%">
       <VStack>
         <Heading>About Me</Heading>
+        
         <Box>
           <Text fontSize={25} >Hello stranger! 👋, My name is</Text>
           <Text fontSize={25}  as="p">Manish Singh Chouhan</Text>
