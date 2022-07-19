@@ -1,13 +1,13 @@
 .hero-img {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.37);
-  height: 150vh;
+  height: 200vh;
   position: relative;
 }
 
 .hero-img::before {
   content: "";
-  background: url("https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background: url("https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-position: center top;
   height: 100%;

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Footer from '../Components/Footer'
-import HearoImg from '../Components/HearoImg'
+
+import HeroImg from '../Components/HeroImg'
+import HomePage from '../Components/HomePage'
 import Navbar from '../Components/Navbar'
 
 const Home = () => {
@@ -10,7 +12,8 @@ const Home = () => {
   return (
     <div>
       <Navbar/> 
-      <HearoImg/>
+      <HeroImg/>
+      <HomePage/>
       <Footer/>
     </div>
   )

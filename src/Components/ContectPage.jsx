@@ -1,31 +1,35 @@
 import React from "react";
-import "../Style/ContectPageStyles.css";
+import {
+  Box,
+  Text,
+  Center,
+  Button,
+  SimpleGrid,
+  Input,
+} from "@chakra-ui/react";
 
 const ContectPage = () => {
   return (
-    <div className="contect">
-      <h1>Contect Us</h1>
-
-      <div className="contect-page" >
-        <div className="contectPage">
-          <h1>Word No 11 Baihar Balaghat MP ,</h1>
-          <h1> 481111 India</h1>
-          <h1>Phone : 7020949932</h1>
-          <h1>Email id : manishchouhan2396@gmail</h1>
-        </div>
-        <div className="form">
-          <div>
-            <span>Name :</span>
-            <input type="text" placeholder="Enter Name..." />
-          </div>
-          <div>
-            <span>Email :</span>
-            <input type="text" placeholder="Enter Email..." />
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <Center position="absolute" top="200px"  width="100%">
+      <SimpleGrid columns={[1, null , 2]} spacing={100}>
+        <Box height="auto" pl={10}>
+          <Box>
+             <Text as="u" color="white" fontSize={45} >Address</Text>
+          </Box>
+          <Text as="samp" color="white" fontSize={30} >Word No 11 , Baihar</Text>
+          <Text as="samp" color="white" fontSize={30} > Balaghat , MP 481111</Text>
+          <Text as="samp" color="white" fontSize={30} > ,India</Text>
+          <Text>Mail Id : manishchouhan2396@gmail.com</Text>
+        </Box>
+        <Box height="auto" pr={10}>
+          <Text ml={3} as="u">Conect Us</Text>
+          <Input m="1rem" type="text" placeholder="Enter Name" />
+          <Input m="1rem" type="email" placeholder="Enter Email id" />
+          <Input m="1rem" type="number" placeholder="Mobile Number" />
+          <Button m="1rem" color="white"  bgColor="teal.300">Submit</Button>
+        </Box>
+      </SimpleGrid>
+    </Center>
   );
 };
 

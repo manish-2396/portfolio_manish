@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Style/AdmineStyles.css"
+// import "../Style/AdmineStyles.css"
 
 const Admine = () => {
   return (
